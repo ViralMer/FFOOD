@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class ThemeProvider extends ChangeNotifier{
+class ThemesProvider extends ChangeNotifier {
 ThemeData _theme = ThemeData.light();
 ThemeData get theme=> _theme;
 
